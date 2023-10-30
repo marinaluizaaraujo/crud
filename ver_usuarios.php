@@ -9,7 +9,7 @@ include_once('partials/header.php');
 
 <div class="container">
     <h1>Lista </h1>
-<table class="table">
+    <table class="table">
         <tr>
             <th scope="col">CPF</th>
             <th scope="col">Nome</th>

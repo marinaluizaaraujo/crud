@@ -28,7 +28,7 @@ include_once('conexao.php');
 
         
         <label for='' class='form-label'>endereco:</label>
-        <input type='text' id='endereco' name='endereco' class='form-control' value=$linha[endereco]  readonli />
+        <input type='text' id='endereco' name='endereco' class='form-control' value=$linha[endereco]/>
         <!-- disable serve para mostrar o que tem no campo porem não vai conseguir mudar -->
 
         <label for='' class='form-label'> telefone: </label>
@@ -36,7 +36,7 @@ include_once('conexao.php');
 
         <label for='' class='form-label'>Nome:</label>
         <input type='text' id='Nome' name='Nome' class='form-control' value=$linha[Nome]  />
-        <!-- disable serve para mostrar o que tem no campo porem não vai conseguir mudar -->
+
 
         <button type='submit' class='btn btn-success mt-2'> Atualizar </button>
         <button type='reset' class='btn btn-danger mt-2'> Limpar Formulario </button>
@@ -47,7 +47,7 @@ include_once('conexao.php');
         ?>
     </form>
 </div>
-<!-- readonli -->
+<!-- readonli estava no final onde é o forma pagamento -->
 
 <?php
 include_once('partials/footer.php')

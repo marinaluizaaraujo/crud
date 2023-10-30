@@ -30,7 +30,7 @@ include_once('conexao.php');
         <input type='text' id='telefone' name='telefone' class='form-control' value=$linha[telefone]  />
 
         <label for='' class='form-label'>CPF:</label>
-        <input type='text' id='cpf' name='cpf' class='form-control' value=$linha[cpf]  readonli />
+        <input type='text' id='cpf' name='cpf' class='form-control' value=$linha[cpf] />
         <!-- disable serve para mostrar o que tem no campo porem não vai conseguir mudar -->
 
         <button type='submit' class='btn btn-success mt-2'> Atualizar </button>
@@ -42,6 +42,7 @@ include_once('conexao.php');
         ?>
     </form>
 </div>
+<!-- readonli estava no final onde é o forma pagamento -->
 
 <?php
 include_once('partials/footer.php')

@@ -31,4 +31,3 @@ if ($senha == $confirmarSenha) {
     //redireciona o usuario para uma pagina escolhida
     header('location:index.php');
 }
-?>

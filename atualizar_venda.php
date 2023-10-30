@@ -18,9 +18,7 @@ try{
             ':fk_funcionarioos_cpf'=>$fk_funcionarioos_cpf
         ]
         );   
-    header('location:ver_funcionarioos.php');
+    header('location:ver_venda.php');
     }catch(Exception $e){
         echo $e->getMessage();
     }
-
-?>

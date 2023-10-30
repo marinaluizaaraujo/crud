@@ -27,5 +27,3 @@ try {
     header('location:index_funcionarioos.php');
 }
 ;
-
-?>
