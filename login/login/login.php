@@ -16,11 +16,11 @@ if($login->rowCount()>0){
         $_SESSION['nome']=$linha['nome'];
     }
     if($_SESSION['tipo']==0){
-header('location:cliente.php');
+header('location:../login/adm/components/index.php');
     }elseif($_SESSION['tipo']==1){
-        header('location:adm.php');
+        header('location:../../login/login/clientes/views/index.php');
     }else{
-        header('../index.php');
+        header('location:../clientes/views/index.php');
     }
 }else{
     echo "Usuario ou Senha invalodo";
